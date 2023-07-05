@@ -4,5 +4,9 @@ img {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(185, 255, 127);
+}
+
+h1 {
+    color: brown;
 }
