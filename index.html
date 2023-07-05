@@ -11,52 +11,70 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:ital@1&family=Oswald&display=swap"
         rel="stylesheet">
+
     <title>Document</title>
 </head>
 
 <body>
 
 
-    <h1 class="myheading ">
-        <img src="assets/images/Bible-logo.jpg" alt=" a book infront of a laptop" id="mylogo">
+
+    <h1 class="myheading">
+        <img src="assets/images/Bible-logo.jpg" alt="a book infront of a laptop" id="mylogo">
         Humour On Bible Stories
     </h1>
-    <div class=" mygame-area">
-        <div class="mycotrols-area">
-            <button class="mypress-jesus-green">Jesus</button>
-            <button class="mypress-jona-blue">Jona</button>
-            <button class="mypress-elijah-orange">Elijah</button>
-            <button class="mypress-moses-red">Moses</button>
+
+    <Section Id="myouter">
+
+        <video Id="myvideo" src="assets/images/background_video.mp4" autoplay muted loop></video>
+
+        <div Id="mycenter">
+            <div class="mygame-area">
+                <div class="mycotrols-area">
+                    <button class="mypress-jesus-green">Jesus</button>
+                    <button class="mypress-jona-blue">Jona</button>
+                    <button class="mypress-elijah-orange">Elijah</button>
+                    <button class="mypress-moses-red">Moses</button>
+                </div>
+
+                <div class="myquestion-area">
+
+                    <span>What would</span>
+                    <span id="mycharactor">Jesus</span>
+                    <span>do with</span>
+                    <span id="myoperand">water?</span>
+                    <p>
+                        <label for="useranswer">Dropdown to select right answer.</label>
+                        <select id="useranswer" name="useranswer">
+                            <option value="Walk over it!">Walk over it!</option>
+                            <option value="Deep Dive into it!">Deep Dive in to it!</option>
+                            <option value="Season it!">Season it!</option>
+                            <option value="Split it!">Split it!</option>
+
+                        </select>
+                    </p>
+                </div>
+
+                <button class="mypress-answer-gray">Submit My Answers!</button>
+            </div>
+
+
+            <div class="myscore-area">
+                <p class="myscores">Right Answers: <span id="myscore">0</span></p>
+                <p class="myscores">Wrong Answers: <span id="Wrong">0</span></p>
+            </div>
         </div>
+    </Section>
+    <script src="assets/js/script.js">
 
-        <div class="myquestion-area">
-
-            <span>What would</span>
-            <span id="mycharactor">Jesus</span>
-            <span>do with</span>
-            <span id="myoperand">water?</span>
-            <p>
-                <label for="useranswer">Dropdown to select right answer.</label>
-                <select id="useranswer" name="useranswer">
-                    <option value="Walk over it!">Walk over it!</option>
-                    <option value="Deep Dive into it!">Deep Dive in to it!</option>
-                    <option value="Season it!">Season it!</option>
-                    <option value="Split it!">Split it!</option>
-
-                </select>
-            </p>
-        </div>
-
-        <button class="mypress-answer-gray">Submit My Answers!</button>
-    </div>
+        // < stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5 -->
 
 
-    <div class="myscore-area">
-        <p class="myscores">Right Answers: <span id="myscore">0</span></p>
-        <p class="myscores">Wrong Answers: <span id="Wrong">0</span></p>
-    </div>
 
-    <script src=" assets/js/script.js">
+        //  < document.querySelector('assets/images/background_video.mp4').playbackRate= 0.5;>
+
+
+
 
     </script>
 </body>
