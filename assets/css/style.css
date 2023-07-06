@@ -11,8 +11,36 @@ body {
 .myheading {
     background-color: rgb(227, 227, 244);
     padding: 2%;
+    margin: auto;
+}
+
+.mycotrols-area {
+    margin: 15%;
+}
+
+.mypress-jesus-green {
+    margin: 1%;
+    color: green;
 
 }
+
+.mypress-jona-blue {
+    margin: 1%;
+    color: blue;
+}
+
+
+.mypress-elijah-orange {
+    margin: 1%;
+    color: orange;
+}
+
+
+.mypress-moses-red {
+    margin: 1%;
+    color: red;
+}
+
 
 #myvideo {
 
@@ -21,17 +49,11 @@ body {
 
 }
 
-.mypress-jesus-green {
-
-    border-radius: 50%;
-}
-
 
 #mycenter {
 
     width: auto;
     height: auto;
-    padding-top: auto;
     background-color: rgba(227, 227, 244, 0.6);
     right: 33%;
     bottom: 10%;
