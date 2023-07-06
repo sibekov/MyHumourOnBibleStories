@@ -38,8 +38,7 @@ function mycheckAnswer() {
 }
 
 function myworkedoutAnswer(charactor, operand) {
-    document.getElementById('mycharactor').textContent = charactor;
-    document.getElementById('myoperand').textContent = operand;
+
 
 }
 
@@ -52,7 +51,10 @@ function myincreaselossAnswer() {
 }
 
 
-function displayjesusQuestion() {
+function displayjesusQuestion(charactor, operand) {
+
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
 
 }
 
