@@ -24,9 +24,26 @@ body {
 
 }
 
+.mypress-jesus-green:active,
+.mypress-jesus-green:hover {
+    margin: 1%;
+    color: white;
+    background-color: green;
+
+}
+
+
 .mypress-jona-blue {
     margin: 1%;
     color: blue;
+}
+
+.mypress-jona-blue:active,
+.mypress-jona-blue:hover {
+    margin: 1%;
+    color: white;
+    background-color: green;
+
 }
 
 
@@ -35,12 +52,27 @@ body {
     color: orange;
 }
 
+.mypress-elijah-orange:active,
+.mypress-elijah-orange:hover {
+    margin: 1%;
+    color: white;
+    background-color: green;
+
+}
+
 
 .mypress-moses-red {
     margin: 1%;
     color: red;
 }
 
+.mypress-moses-red:active,
+.mypress-moses-red:hover {
+    margin: 1%;
+    color: white;
+    background-color: green;
+
+}
 
 #myvideo {
 

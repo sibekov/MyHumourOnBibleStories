@@ -29,11 +29,11 @@
         <video Id="myvideo" src="assets/images/background_video.mp4" autoplay muted loop></video>
         <div Id="mycenter">
             <div class="mygame-area">
-                <div class="mycotrols-area">
-                    <button class="mypress-jesus-green">Jesus</button>
-                    <button class="mypress-jona-blue">Jona</button>
-                    <button class="mypress-elijah-orange">Elijah</button>
-                    <button class="mypress-moses-red">Moses</button>
+                <div class="mycontrols-area">
+                    <button data-type="jesus" class="mypress-jesus-green">Jesus</button>
+                    <button data-type="jona" class="mypress-jona-blue">Jona</button>
+                    <button data-type="elijah" class="mypress-elijah-orange">Elijah</button>
+                    <button data-type="moses" class="mypress-moses-red">Moses</button>
                 </div>
 
                 <div class="myquestion-area">
@@ -42,7 +42,7 @@
                     <span id="mycharactor">Jesus</span>
                     <span>do with</span>
                     <span id="myoperand">water?</span>
-                    <p>
+                    <p class="myanswer-area">
                         <label for="useranswer">Dropdown to select right answer.</label>
                         <select id="useranswer" name="useranswer">
                             <option value="Walk over it!">Walk over it!</option>
@@ -54,7 +54,7 @@
                     </p>
                 </div>
 
-                <button class="mypress-answer-gray">Submit My Answers!</button>
+                <button data-type="submit" class="mypress-answer-gray">Submit My Answers!</button>
             </div>
 
 
