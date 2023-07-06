@@ -14,18 +14,30 @@ body {
     margin: auto;
 }
 
+.mypress--general {
+    border: solid;
+    border-style: inset;
+}
+
+.mypress--general::after {
+    content: attr(data-type);
+
+
+}
+
+
 .mycotrols-area {
     margin: 15%;
 }
 
-.mypress-jesus-green {
+.mypress--green {
     margin: 1%;
     color: green;
 
 }
 
-.mypress-jesus-green:active,
-.mypress-jesus-green:hover {
+.mypress--green:active,
+.mypress--green:hover {
     margin: 1%;
     color: white;
     background-color: green;
@@ -33,13 +45,13 @@ body {
 }
 
 
-.mypress-jona-blue {
+.mypress--blue {
     margin: 1%;
     color: blue;
 }
 
-.mypress-jona-blue:active,
-.mypress-jona-blue:hover {
+.mypress--blue:active,
+.mypress--blue:hover {
     margin: 1%;
     color: white;
     background-color: green;
@@ -47,13 +59,13 @@ body {
 }
 
 
-.mypress-elijah-orange {
+.mypress--orange {
     margin: 1%;
     color: orange;
 }
 
-.mypress-elijah-orange:active,
-.mypress-elijah-orange:hover {
+.mypress--orange:active,
+.mypress--orange:hover {
     margin: 1%;
     color: white;
     background-color: green;
@@ -61,24 +73,35 @@ body {
 }
 
 
-.mypress-moses-red {
+.mypress--red {
     margin: 1%;
     color: red;
 }
 
-.mypress-moses-red:active,
-.mypress-moses-red:hover {
+.mypress--red:active,
+.mypress--red:hover {
     margin: 1%;
     color: white;
     background-color: green;
 
 }
 
-#myvideo {
 
+.mypress--gray {
+    margin: 1%;
+    color: grey;
+}
+
+.mypress--grey:active,
+.mypress--grey:hover {
+    margin: 1%;
+    color: white;
+    background-color: green;
+}
+
+#myvideo {
     width: 100%;
     height: 100%;
-
 }
 
 
