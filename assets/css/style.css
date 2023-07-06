@@ -3,6 +3,11 @@
     max-height: 10%;
 }
 
+body {
+
+    background-color: rgb(227, 227, 244);
+}
+
 .myheading {
     background-color: rgb(227, 227, 244);
     padding: 2%;
@@ -15,6 +20,12 @@
     height: 100%;
 
 }
+
+.mypress-jesus-green {
+
+    border-radius: 50%;
+}
+
 
 #mycenter {
 
