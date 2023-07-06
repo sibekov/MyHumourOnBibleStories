@@ -1,18 +1,20 @@
 
+console.log("Ijava Iyahlupha jerrr!!!");
+
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons) {
-        buttons.addEventLinstener("click", function () {
+        button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
-                alert("You clicked Submit");
+                alert("You clicked Submit!");
             }
             else {
                 let mygameType = this.getAttribute("data-type");
-                alert(`You clicked ${gameType}`);
+                alert(`You clicked ${mygameType}`);
             }
-        }
-}
+        });
+    }
 
 });
 
