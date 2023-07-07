@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
-                alert("You clicked Submit!");
+                mycheckAnswer();
             }
             else {
                 let mygameType = this.getAttribute("data-type");
@@ -35,6 +35,20 @@ function myrunGame(mygameType) {
 
 function mycheckAnswer() {
 
+    let myuserAnswer = document.getElementById("useranswer").value;
+    let myAnswer = myworkedoutAnswer();
+    let isCorrect = myuserAnswer === myAnswer[1];
+
+    if (isCorrect) {
+        alert("Congratulations!!!...You Have Good Bible Study Habits!");
+    }
+    else {
+        alert(`Sorry... you said ${myuserAnswer}.  But the correct answer is ${myAnswer[1]}`);
+    }
+
+    myrunGame(myAnswer[0]);
+
+    //pop trys into a set.
 }
 
 function myworkedoutAnswer() {
@@ -43,19 +57,23 @@ function myworkedoutAnswer() {
     let operand = document.getElementById('myoperand').innerText;
 
     if (charactor === 'Jesus' && operand === 'water?') {
-        return 'Walk over it!';
+        return [charactor, 'walk over it!'];
     }
     else if (charactor === 'Jesus' && operand === 'a rock?') {
-        return 'build a mension on it!';
+        return [charactor, 'build a mension on it!'];
     }
     else if (charactor === 'Jesus' && operand === 'a tree?') {
-        return 'curse it!';
+        return [charactor, 'curse it!'];
     }
     else if (charactor === 'Jesus' && operand === 'a fish?') {
-        return 'do a multiplication!';
+        return [charactor, 'do a multiplication!'];
+    }
+    else if (charactor === 'Jesus' && operand === 'a fire?') {
+        return [charactor, "set it on his friends heads!"];
     }
     else {
-        return "pour it on his friends's heads";
+        alert(`unimplemented operand ${operand}`);
+        throw `unimplemented oprand ${operand}, Aborting!!!`;
     }
 }
 
@@ -92,4 +110,4 @@ function displaymosesQuestion() {
 
 let vid = document.getElementById("myvideo");
 vid.playbackRate = 0.05;
-
+;
