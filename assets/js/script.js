@@ -37,9 +37,26 @@ function mycheckAnswer() {
 
 }
 
-function myworkedoutAnswer(charactor, operand) {
+function myworkedoutAnswer() {
 
+    let charactor = document.getElementById('mycharactor').innerText;
+    let operand = document.getElementById('myoperand').innerText;
 
+    if (charactor === 'Jesus' && operand === 'water?') {
+        return 'Walk over it!';
+    }
+    else if (charactor === 'Jesus' && operand === 'a rock?') {
+        return 'build a mension on it!';
+    }
+    else if (charactor === 'Jesus' && operand === 'a tree?') {
+        return 'curse it!';
+    }
+    else if (charactor === 'Jesus' && operand === 'a fish?') {
+        return 'do a multiplication!';
+    }
+    else {
+        return "pour it on his friends's heads";
+    }
 }
 
 function myincreaseScore() {
