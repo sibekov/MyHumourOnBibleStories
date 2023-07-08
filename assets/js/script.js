@@ -21,8 +21,24 @@ document.addEventListener("DOMContentLoaded", function () {
 function myrunGame(mygameType) {
 
     let charactor = "Jesus";
+    let myrand = Math.floor(10 * Math.random() / 2);
+    // let mydict = { "Water": "water?", "Rock": "a rock?", "Tree": "a tree?", "Fish": "a fish?", "Fire": "fire?" };
+    let mylist = ["water?", "a rock?", "a tree?", "a fish?", "fire?"];
+    let operand = mylist[myrand];
 
-    let operand = ["water?", "a rock?", "a tree?", "a fish?", "fire?"][Math.floor(10 * Math.random() / 2)];
+    /*if (mylist.length === 0) {
+
+        alert`Your level is finished proceed to other levels`;
+        throw `Your  ${Jesus} level is finished....! Please try other levels or repeat this one if you like!`;
+    }
+    {
+        delete (operand, mylist);
+        console.log(mylist);
+    }*/
+
+
+
+
     if (mygameType === "Jesus") {
         displayjesusQuestion(charactor, operand);
     } else {
@@ -44,6 +60,7 @@ function mycheckAnswer() {
     }
     else {
         alert(`Sorry... you said ${myuserAnswer}.  But the correct answer is ${myAnswer[1]}`);
+
     }
 
     myrunGame(myAnswer[0]);
@@ -68,9 +85,11 @@ function myworkedoutAnswer() {
     else if (charactor === 'Jesus' && operand === 'a fish?') {
         return [charactor, 'do a multiplication!'];
     }
-    else if (charactor === 'Jesus' && operand === 'a fire?') {
-        return [charactor, "set it on his friends heads!"];
+    else if (charactor === 'Jesus' && operand === 'fire?') {
+        return [charactor, "set it on his friends\'s heads!"];
     }
+
+    //Add answers hear.
     else {
         alert(`unimplemented operand ${operand}`);
         throw `unimplemented oprand ${operand}, Aborting!!!`;
