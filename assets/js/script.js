@@ -20,31 +20,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function myrunGame(mygameType) {
 
-    let charactor = "Jesus";
-    let myrand = Math.floor(10 * Math.random() / 2);
-    // let mydict = { "Water": "water?", "Rock": "a rock?", "Tree": "a tree?", "Fish": "a fish?", "Fire": "fire?" };
-    let mylist = ["water?", "a rock?", "a tree?", "a fish?", "fire?"];
-    let operand = mylist[myrand];
+    let charactor = 'Jesus';
 
-    /*if (mylist.length === 0) {
+    let mylist = ['water?', 'a rock?', 'a tree?', 'a fish?', 'fire?'];
 
-        alert`Your level is finished proceed to other levels`;
-        throw `Your  ${Jesus} level is finished....! Please try other levels or repeat this one if you like!`;
-    }
-    {
-        delete (operand, mylist);
-        console.log(mylist);
-    }*/
+    let operand = mylist[Math.floor(10 * Math.random() / 2)];
 
-
-
-
-    if (mygameType === "Jesus") {
+    //  let myset = set();
+    //  myset.Add(operand);
+    // console.log(myset);
+    if (mygameType === 'Jesus') {
         displayjesusQuestion(charactor, operand);
     } else {
         alert(`unknown game type:${mygameType}`);
         throw `unknown game type:${mygameType}. Aborting!!!`;
     }
+
+
 }
 
 
@@ -63,10 +55,25 @@ function mycheckAnswer() {
 
     }
 
-    myrunGame(myAnswer[0]);
+    if (document.getElementById("myscore").innerHTML < 4) {
+        if (mylist.length === 0) {
+            alert(`Congratulations on Finishing the ${charactor} stage, please feel free to move on to other charactors!!!!`);
+            throw `${charactor} stage is finished, keep up the Spiritual Grouwth,  Aborting....`;
+        }
+        else {
+            myrunGame(myAnswer[0]);
+        }
 
-    //pop trys into a set.
+    }
+    else {
+        alert(`Sorry you selected incorrect answers atleast Three times ----GAME OVER!`);
+        throw `Failed the ${charactor} stage, THE GAME IS OVER! .... Aborting...`;
+
+
+    }
+
 }
+
 
 function myworkedoutAnswer() {
 
