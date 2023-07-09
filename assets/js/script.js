@@ -49,29 +49,16 @@ function mycheckAnswer() {
 
     if (isCorrect) {
         alert("Congratulations!!!...You Have Good Bible Study Habits!");
+        myincreaseScore();
     }
     else {
         alert(`Sorry... you said ${myuserAnswer}.  But the correct answer is ${myAnswer[1]}`);
+        myincreaselossAnswer();
 
     }
 
-    if (document.getElementById("myscore").innerHTML < 4) {
-        if (mylist.length === 0) {
-            alert(`Congratulations on Finishing the ${charactor} stage, please feel free to move on to other charactors!!!!`);
-            throw `${charactor} stage is finished, keep up the Spiritual Grouwth,  Aborting....`;
-        }
-        else {
-            myrunGame(myAnswer[0]);
-        }
 
-    }
-    else {
-        alert(`Sorry you selected incorrect answers atleast Three times ----GAME OVER!`);
-        throw `Failed the ${charactor} stage, THE GAME IS OVER! .... Aborting...`;
-
-
-    }
-
+    myrunGame(myAnswer[0]);
 }
 
 
@@ -105,10 +92,14 @@ function myworkedoutAnswer() {
 
 function myincreaseScore() {
 
+    let previousmyScore = parseInt(document.getElementById("myscore").innerHTML);
+    parseInt(document.getElementById("myscore").innerHTML) = ++previousmyScore;
 }
 
 function myincreaselossAnswer() {
 
+    let previousmywrongScore = parseInt(document.getElementById("wrong").innerHTML);
+    parseInt(document.getElementById("wrong").innerHTML) = ++previousmywrongScore;
 }
 
 
