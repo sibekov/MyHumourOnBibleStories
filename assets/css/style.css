@@ -3,15 +3,18 @@
     max-height: 10%;
 }
 
+
+
 body {
 
     background-color: rgb(227, 227, 244);
 }
 
 .myheading {
-    background-color: rgb(227, 227, 244);
+    background-color: red;
     padding: 2%;
     margin: auto;
+
 }
 
 .mypress--general {

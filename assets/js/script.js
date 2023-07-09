@@ -6,15 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
+
                 mycheckAnswer();
             }
+
             else {
                 let mygameType = this.getAttribute("data-type");
                 myrunGame(mygameType);
             }
         });
     }
-
     myrunGame(mygameType);
 });
 
@@ -158,7 +159,9 @@ function myincreaseScore() {
 function myincreaselossAnswer() {
 
     let previousmywrongScore = parseInt(document.getElementById("wrong").innerHTML);
+
     document.getElementById("wrong").innerHTML = previousmywrongScore + 1;
+
 }
 
 
