@@ -1,17 +1,18 @@
 #mylogo {
     max-width: 10%;
     max-height: 10%;
+    float: right;
 }
 
 
 
 body {
 
-    background-color: rgb(227, 227, 244);
+    /*background-color: rgb(227, 227, 244);*/
 }
 
 .myheading {
-    background-color: red;
+    background-color: rgb(227, 227, 244);
     padding: 2%;
     margin: auto;
 
