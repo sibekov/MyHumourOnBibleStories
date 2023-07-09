@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    myrunGame("Jesus");
+    myrunGame(mygameType);
 });
 
 function myrunGame(mygameType) {
 
-    let charactor = 'Jesus';
+    let charactor = mygameType;
 
     let mylist = ['water?', 'a rock?', 'a tree?', 'a fish?', 'fire?'];
 
@@ -32,6 +32,8 @@ function myrunGame(mygameType) {
 
     if (mygameType === 'Jesus') {
         displayjesusQuestion(charactor, operand);
+    } else if (mygameType === 'Jona') {
+        displayjonaQuestion(charactor, operand);
     }
     else {
         alert(`unknown game type:${mygameType}`);
@@ -85,7 +87,23 @@ function myworkedoutAnswer() {
         return [charactor, "set it on his friends\'s heads!"];
     }
 
-    //Add answers hear.
+    else if (charactor === 'Jona' && operand === 'water?') {
+        return [charactor, 'deep dive into it'];
+    }
+    else if (charactor === 'Jona' && operand === 'a rock?') {
+        return [charactor, 'sit and wait for a movie to start'];
+    }
+    else if (charactor === 'Jona' && operand === 'a tree?') {
+        return [charactor, 'lie down under its shadow'];
+    }
+    else if (charactor === 'Jona' && operand === 'a fish?') {
+        return [charactor, 'submarine!'];
+    }
+    else if (charactor === 'Jona' && operand === 'fire?') {
+        return [charactor, 'try to burn others those who frustrated him'];
+    }
+
+    //Add answers hea
     else {
         alert(`unimplemented operand ${operand}`);
         throw `unimplemented oprand ${operand}, Aborting!!!`;
@@ -112,7 +130,9 @@ function displayjesusQuestion(charactor, operand) {
 
 }
 
-function displayjonaQuestion() {
+function displayjonaQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
 
 }
 
