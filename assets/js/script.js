@@ -93,13 +93,13 @@ function myworkedoutAnswer() {
 function myincreaseScore() {
 
     let previousmyScore = parseInt(document.getElementById("myscore").innerHTML);
-    parseInt(document.getElementById("myscore").innerHTML) = ++previousmyScore;
+    document.getElementById("myscore").innerHTML = previousmyScore + 1;
 }
 
 function myincreaselossAnswer() {
 
     let previousmywrongScore = parseInt(document.getElementById("wrong").innerHTML);
-    parseInt(document.getElementById("wrong").innerHTML) = ++previousmywrongScore;
+    document.getElementById("wrong").innerHTML = previousmywrongScore + 1;
 }
 
 
