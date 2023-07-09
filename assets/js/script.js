@@ -35,6 +35,9 @@ function myrunGame(mygameType) {
     } else if (mygameType === 'Jona') {
         displayjonaQuestion(charactor, operand);
     }
+    else if (mygameType === 'Elijah') {
+        displayelijahQuestion(charactor, operand);
+    }
     else {
         alert(`unknown game type:${mygameType}`);
         throw `unknown game type:${mygameType}. Aborting!!!`;
@@ -103,6 +106,23 @@ function myworkedoutAnswer() {
         return [charactor, 'try to burn others those who frustrated him'];
     }
 
+
+    else if (charactor === 'Elijah' && operand === 'water?') {
+        return [charactor, 'season it!'];
+    }
+    else if (charactor === 'Elijah' && operand === 'a rock?') {
+        return [charactor, 'hide in it'];
+    }
+    else if (charactor === 'Elijah' && operand === 'a tree?') {
+        return [charactor, 'overnight stay'];
+    }
+    else if (charactor === 'Elijah' && operand === 'a fish?') {
+        return [charactor, 'three year diet'];
+    }
+    else if (charactor === 'Elijah' && operand === 'fire?') {
+        return [charactor, 'start a barbacue'];
+    }
+
     //Add answers hea
     else {
         alert(`unimplemented operand ${operand}`);
@@ -136,11 +156,13 @@ function displayjonaQuestion(charactor, operand) {
 
 }
 
-function displyelijahQuestion() {
-
+function displayelijahQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
 }
 
 function displaymosesQuestion() {
+
 }
 
 
