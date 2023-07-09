@@ -29,9 +29,11 @@ function myrunGame(mygameType) {
     //  let myset = set();
     //  myset.Add(operand);
     // console.log(myset);
+
     if (mygameType === 'Jesus') {
         displayjesusQuestion(charactor, operand);
-    } else {
+    }
+    else {
         alert(`unknown game type:${mygameType}`);
         throw `unknown game type:${mygameType}. Aborting!!!`;
     }
@@ -120,11 +122,10 @@ function displyelijahQuestion() {
 
 function displaymosesQuestion() {
 
-}
 
 
-//https://www.w3schools.com/tags/av_prop_playbackrate.asp
+    //https://www.w3schools.com/tags/av_prop_playbackrate.asp
 
-let vid = document.getElementById("myvideo");
-vid.playbackRate = 0.05;
-;
+    let vid = document.getElementById("myvideo");
+    vid.playbackRate = 0.05;
+
