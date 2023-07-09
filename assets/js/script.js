@@ -1,5 +1,5 @@
 
-console.log("Ijava Iyahlupha jerrr!!!");
+
 
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
@@ -27,9 +27,6 @@ function myrunGame(mygameType) {
 
     let operand = mylist[Math.floor(10 * Math.random() / 2)];
 
-    //  let myset = set();
-    //  myset.Add(operand);
-    // console.log(myset);
 
     if (mygameType === 'Jesus') {
         displayjesusQuestion(charactor, operand);
@@ -189,7 +186,3 @@ function displaymosesQuestion(charactor, operand) {
 }
 
 
-    //https://www.w3schools.com/tags/av_prop_playbackrate.asp
-
-    //let vid = document.getElementById("myvideo");
-   // vid.playbackRate = 0.05;

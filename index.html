@@ -17,16 +17,19 @@
 
 <body>
 
+    <header class="myheading">
+        <h1>
+            <img src="assets/images/Bible-logo.jpg" alt="a book infront of a laptop" id="mylogo">
+            Humour On Bible Stories
+        </h1>
 
+    </header>
 
-    <h1 class="myheading">
-        <img src="assets/images/Bible-logo.jpg" alt="a book infront of a laptop" id="mylogo">
-        Humour On Bible Stories
-    </h1>
 
     <Section Id="myouter">
 
-        <video Id="myvideo" src="assets/images/background_video.mp4" autoplay muted loop></video>
+        <div Id="myplaysizer"> <video Id="myvideo" src="assets/images/background_video.mp4" autoplay muted loop></video>
+        </div>
         <div Id="mycenter">
             <div class="mygame-area">
                 <div class="mycontrols-area">
@@ -37,11 +40,12 @@
                 </div>
 
                 <div class="myquestion-area">
-
-                    <span>What would</span>
-                    <span id="mycharactor">Jesus</span>
-                    <span>do with</span>
-                    <span id="myoperand">water?</span>
+                    <div Id="bigger">
+                        <span>What would</span>
+                        <span id="mycharactor">Jesus</span>
+                        <span>do with</span>
+                        <span id="myoperand">water?</span>
+                    </div>
                     <p class="myanswer-area">
                         <label for="useranswer">Dropdown to select right answer.</label>
                         <select id="useranswer" name="useranswer">
