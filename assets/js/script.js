@@ -38,6 +38,10 @@ function myrunGame(mygameType) {
     else if (mygameType === 'Elijah') {
         displayelijahQuestion(charactor, operand);
     }
+
+    else if (mygameType === 'Moses') {
+        displaymosesQuestion(charactor, operand);
+    }
     else {
         alert(`unknown game type:${mygameType}`);
         throw `unknown game type:${mygameType}. Aborting!!!`;
@@ -123,6 +127,21 @@ function myworkedoutAnswer() {
         return [charactor, 'start a barbacue'];
     }
 
+    else if (charactor === 'Moses' && operand === 'water?') {
+        return [charactor, 'divide by Two'];
+    }
+    else if (charactor === 'Moses' && operand === 'a rock?') {
+        return [charactor, 'strike it'];
+    }
+    else if (charactor === 'Moses' && operand === 'a tree?') {
+        return [charactor, 'take of his shoes'];
+    }
+    else if (charactor === 'Moses' && operand === 'a fish?') {
+        return [charactor, 'make sure it is not eel before eating'];
+    }
+    else if (charactor === 'Moses' && operand === 'fire?') {
+        return [charactor, 'listen attentively'];
+    }
     //Add answers hea
     else {
         alert(`unimplemented operand ${operand}`);
@@ -161,8 +180,9 @@ function displayelijahQuestion(charactor, operand) {
     document.getElementById('myoperand').textContent = operand;
 }
 
-function displaymosesQuestion() {
-
+function displaymosesQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
 }
 
 
