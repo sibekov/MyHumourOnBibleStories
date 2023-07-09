@@ -121,11 +121,10 @@ function displyelijahQuestion() {
 }
 
 function displaymosesQuestion() {
-
+}
 
 
     //https://www.w3schools.com/tags/av_prop_playbackrate.asp
 
-    let vid = document.getElementById("myvideo");
-    vid.playbackRate = 0.05;
-
+    //let vid = document.getElementById("myvideo");
+   // vid.playbackRate = 0.05;
