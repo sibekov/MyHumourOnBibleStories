@@ -140,7 +140,7 @@ function myworkedoutAnswer() {
     else if (charactor === 'Moses' && operand === 'fire?') {
         return [charactor, 'listen attentively'];
     }
-    //Add answers hea
+
     else {
         alert(`unimplemented operand ${operand}`);
         throw `unimplemented oprand ${operand}, Aborting!!!`;
