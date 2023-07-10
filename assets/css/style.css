@@ -1,11 +1,3 @@
-#mylogo {
-    width: 10%;
-    height: 10%;
-    float: left;
-
-
-}
-
 #bigger {
     font-size: 250%;
 }
@@ -25,22 +17,27 @@ body {
     background-color: rgb(227, 227, 244);
 }
 
-/*body h1 {
-    font-size: 300%;
-    text-align: center;
-    vertical-align: center;
-}*/
+
 
 .myheading {
     background-color: rgb(227, 227, 244);
-    padding: 2%;
     margin: auto;
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
     clear: both;
+    position: relative;
+    vertical-align: 70px;
 }
 
-*/ .mypress--general {
+#mylogo {
+    width: 10%;
+    height: 10%;
+    float: left;
+
+}
+
+
+.mypress--general {
     border: solid;
     border-style: inset;
 }
@@ -153,25 +150,18 @@ body {
 
 }
 
-/**to be triggered once the screen size starts getting smaller.
+/**Media queries to be triggered once the screen size starts getting smaller.*/
 
-#mycenter {
+@media screen and (max-width:1200px) {
 
-    width: auto;
-    height: auto;
-    background-color: rgba(227, 227, 244, 0.6);
-    right: 1%;
-    
-    top: 170%;
-    position: absolute;
-    border: solid;
-    padding: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;}
-**/
+    #mycenter {
 
-/*body {
-    background-image: url("assets/images/background_video.mp4");
-}*/
+        width: 65%;
+        height: 600px;
+        margin: 0 auto;
+        top: 10%;
+        position: absolute;
+        right: 12%;
+    }
+
+}
