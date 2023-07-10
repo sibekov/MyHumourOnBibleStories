@@ -166,12 +166,13 @@ body {
 
 }
 
-#myfooter {
+footer {
 
-    position: absolute;
-    width: 100%;
+    height: 150px;
+}
+
+.myfooter {
+
     text-align: center;
-    color: red;
-    right: 0;
-
+    background-color: blueviolet;
 }
