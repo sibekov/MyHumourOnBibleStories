@@ -164,12 +164,12 @@ body {
 
 /**Media queries to be triggered once the screen size starts getting smaller.**/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
 
     #mycenter {
 
         width: 65%;
-        height: 400px;
+        height: 85%;
         margin: 0 auto;
         top: 10%;
         position: absolute;
@@ -180,7 +180,7 @@ body {
 
 footer {
 
-    height: 80px;
+    height: 70px;
     text-align: center;
     /*bottom: 0;*/
     border-radius: 10%;
