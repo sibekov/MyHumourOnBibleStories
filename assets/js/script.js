@@ -25,27 +25,29 @@ function myrunGame(mygameType) {
 
     let mylist = ['water?', 'a rock?', 'a tree?', 'a fish?', 'fire?'];
 
-    let operand = mylist[Math.floor(10 * Math.random() / 2)];
+    //let operand = mylist[Math.floor(10 * Math.random() / 2)];
+
+    for (let elementoflist of mylist) {
+
+        if (mygameType === 'Jesus') {
+            displayjesusQuestion(charactor, operand);
+        } else if (mygameType === 'Jona') {
+            displayjonaQuestion(charactor, operand);
+        }
+        else if (mygameType === 'Elijah') {
+            displayelijahQuestion(charactor, operand);
+        }
+
+        else if (mygameType === 'Moses') {
+            displaymosesQuestion(charactor, operand);
+        }
+        else {
+            alert(`unknown game type:${mygameType}`);
+            throw `unknown game type:${mygameType}. Aborting!!!`;
+        }
 
 
-    if (mygameType === 'Jesus') {
-        displayjesusQuestion(charactor, operand);
-    } else if (mygameType === 'Jona') {
-        displayjonaQuestion(charactor, operand);
     }
-    else if (mygameType === 'Elijah') {
-        displayelijahQuestion(charactor, operand);
-    }
-
-    else if (mygameType === 'Moses') {
-        displaymosesQuestion(charactor, operand);
-    }
-    else {
-        alert(`unknown game type:${mygameType}`);
-        throw `unknown game type:${mygameType}. Aborting!!!`;
-    }
-
-
 }
 
 
