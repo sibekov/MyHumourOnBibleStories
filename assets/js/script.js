@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-    myrunGame(mygameType);
+    //myrunGame(mygameType);
 });
 
 function myrunGame(mygameType) {
@@ -29,21 +29,21 @@ function myrunGame(mygameType) {
 
     for (let elementoflist of mylist) {
 
-        if (mygameType === 'Jesus') {
+        if (charactor === 'Jesus') {
             displayjesusQuestion(charactor, operand);
-        } else if (mygameType === 'Jona') {
+        } else if (charactor === 'Jona') {
             displayjonaQuestion(charactor, operand);
         }
-        else if (mygameType === 'Elijah') {
+        else if (charactor === 'Elijah') {
             displayelijahQuestion(charactor, operand);
         }
 
-        else if (mygameType === 'Moses') {
+        else if (charactor === 'Moses') {
             displaymosesQuestion(charactor, operand);
         }
         else {
-            alert(`unknown game type:${mygameType}`);
-            throw `unknown game type:${mygameType}. Aborting!!!`;
+            alert(`unknown game type:${charactor}`);
+            throw `unknown game type:${charactor}. Aborting!!!`;
         }
 
 
