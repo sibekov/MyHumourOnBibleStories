@@ -64,13 +64,14 @@
     border: solid;
 }
 
+/* ------------------body section */
 body {
 
     background-color: rgb(227, 227, 244);
 }
 
 
-
+/* ------------------heading section */
 .myheading {
     background-color: rgb(227, 227, 244);
     margin: auto;
@@ -82,6 +83,7 @@ body {
 
 }
 
+/* --the logo*/
 #mylogo {
     width: 10%;
     height: 10%;
@@ -230,6 +232,8 @@ body {
     }
 
 }
+
+/* ------------------heading section */
 
 footer {
 
