@@ -212,3 +212,13 @@ function displaymosesQuestion(charactor, operand) {
     document.getElementById('mycharactor').textContent = charactor;
     document.getElementById('myoperand').textContent = operand;
 }
+
+/**
+ * Displays the number of trys remaining.
+ */
+function mycounter() {
+    let w = parseInt(document.getElementById("wrong").innerHTML);
+    let counta = 3 - w;
+    document.getElementById("counterspan").innerHTML = counta;
+    return counta;
+}
