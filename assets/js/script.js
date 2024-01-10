@@ -37,7 +37,6 @@ function myrunGame(mygameType) {
     else if (newlist.length === 5) {
         alert(`Congratulations you have finished the game !!!! `);
         winner(charactor);
-        console.log(newlist);
     }
     else {
         let operand = mylist.pop();

@@ -23,11 +23,9 @@
     font-size: 100%;
     border-radius: 45%;
     padding: 1%;
-
 }
 
 #counterholder {
-
     color: green;
     margin-bottom: 15%;
 }
@@ -37,22 +35,16 @@
 }
 
 #myplaysizer {
-
-
     width: auto;
     height: auto;
-
-
 }
 
 /* ------------------Answer section */
-
 #useranswer {
     font-size: 150%;
     color: white;
     background: green;
 }
-
 
 /* ------------------restart section */
 .restart {
@@ -70,7 +62,6 @@ body {
     background-color: rgb(227, 227, 244);
 }
 
-
 /* ------------------heading section */
 .myheading {
     background-color: rgb(227, 227, 244);
@@ -79,8 +70,6 @@ body {
     font-size: 100%;
     clear: both;
     position: relative;
-
-
 }
 
 /* --the logo*/
@@ -88,10 +77,9 @@ body {
     width: 10%;
     height: 10%;
     float: left;
-
 }
 
-
+/* --the buttons styling*/
 .mypress--general {
     border: solid;
     border-style: inset;
@@ -100,7 +88,6 @@ body {
 .mypress--general::after {
     content: attr(data-type);
 }
-
 
 .mycotrols-area {
     margin: 15%;
@@ -112,24 +99,17 @@ body {
 
 }
 
-
 .myanswer-area {
 
     overflow: hidden;
-
 }
-
-
-
 
 .mypress--green:active,
 .mypress--green:hover {
     margin: 1%;
     color: white;
     background-color: green;
-
 }
-
 
 .mypress--blue {
     margin: 1%;
@@ -141,9 +121,7 @@ body {
     margin: 1%;
     color: white;
     background-color: green;
-
 }
-
 
 .mypress--orange {
     margin: 1%;
@@ -155,10 +133,7 @@ body {
     margin: 1%;
     color: white;
     background-color: green;
-
 }
-
-
 
 .mypress--red {
     margin: 1%;
@@ -170,14 +145,11 @@ body {
     margin: 1%;
     color: white;
     background-color: green;
-
 }
-
 
 .mypress--gray {
     margin: 15%;
     color: grey;
-
 }
 
 .mypress--grey:active,
@@ -189,8 +161,6 @@ body {
 
 #myouter {
     position: relative;
-
-
 }
 
 #myvideo {
@@ -198,9 +168,7 @@ body {
     height: 70%;
 }
 
-
 #mycenter {
-
     width: auto;
     height: auto;
     background-color: rgba(227, 227, 244, 0.6);
@@ -213,16 +181,12 @@ body {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-
-
 }
 
 /**Media queries to be triggered once the screen size starts getting smaller.**/
-
 @media screen and (max-width:900px) {
 
     #mycenter {
-
         width: 65%;
         height: 80%;
         margin: 0 auto;
@@ -234,14 +198,10 @@ body {
 }
 
 /* ------------------heading section */
-
 footer {
-
     height: 50px;
     text-align: center;
-
     border-radius: 10%;
-
 }
 
 #spred {
