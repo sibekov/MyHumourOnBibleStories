@@ -20,7 +20,7 @@
     border: solid;
     margin-left: 5%;
     background-color: green;
-    font-size: 150%;
+    font-size: 100%;
     border-radius: 45%;
     padding: 1%;
 
@@ -29,9 +29,12 @@
 #counterholder {
 
     color: green;
+    margin-bottom: 15%;
 }
 
-
+#separator {
+    margin-top: 5%;
+}
 
 #myplaysizer {
 
@@ -41,6 +44,15 @@
 
 
 }
+
+/* ------------------Answer section */
+
+#useranswer {
+    font-size: 150%;
+    color: white;
+    background: green;
+}
+
 
 /* ------------------restart section */
 .restart {
@@ -147,7 +159,7 @@ body {
 
 
 .mypress--red {
-    margin: 5%;
+    margin: 1%;
     color: red;
 }
 
@@ -161,7 +173,7 @@ body {
 
 
 .mypress--gray {
-    margin: 1%;
+    margin: 15%;
     color: grey;
 
 }
