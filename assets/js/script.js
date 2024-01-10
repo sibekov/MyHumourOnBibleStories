@@ -236,9 +236,17 @@ function winner(charactor) {
 
 /**
  * Displays the message to be desplayed if the user has lost the game.
+ * Disables all the buttons so the user can not continue playing.
  */
 function mygameover() {
     document.getElementById("gameoverdiv").innerHTML = "...!!GAME OVER!!...  <br/>   you only get 3 chances... <br/> Click 'Start Over' button below <br/> to try again";
     const buttons = document.querySelectorAll("button");
     buttons.forEach(button => button.disabled = true);
+}
+
+/**
+ * The refresh button that is used to reset and reload the game.
+ */
+function tryagain() {
+    location.reload();
 }
