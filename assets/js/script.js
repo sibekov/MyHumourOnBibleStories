@@ -233,3 +233,12 @@ function winner(charactor) {
     const buttons = document.querySelectorAll("button");
     buttons.forEach(button => button.disabled = true);
 }
+
+/**
+ * Displays the message to be desplayed if the user has lost the game.
+ */
+function mygameover() {
+    document.getElementById("gameoverdiv").innerHTML = "...!!GAME OVER!!...  <br/>   you only get 3 chances... <br/> Click 'Start Over' button below <br/> to try again";
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => button.disabled = true);
+}
