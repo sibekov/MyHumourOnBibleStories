@@ -163,3 +163,19 @@ function myworkedoutAnswer() {
         throw `unimplemented oprand ${operand}, Aborting!!!`;
     }
 }
+
+/**
+ * Gets the current score from the DOM and increments it by 1 if the user pick the correct answer
+ */
+function myincreaseScore() {
+    let previousmyScore = parseInt(document.getElementById("myscore").innerHTML);
+    document.getElementById("myscore").innerHTML = previousmyScore + 1;
+}
+
+/**
+ * Gets the current score from the DOM and increments it by 1 if the user selcted the wrong answer
+ */
+function myincreaselossAnswer() {
+    let previousmywrongScore = parseInt(document.getElementById("wrong").innerHTML);
+    document.getElementById("wrong").innerHTML = previousmywrongScore + 1;
+}
