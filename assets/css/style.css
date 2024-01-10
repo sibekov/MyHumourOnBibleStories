@@ -2,6 +2,17 @@
     font-size: 250%;
 }
 
+/* ------------------game over section */
+#gameoverdiv {
+    font-size: 150%;
+    color: red;
+    border: none;
+    outline: none;
+    margin-top: 10%;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10%;
+}
 
 /* ------------------counter of trys remaining */
 #counterspan {
@@ -31,6 +42,15 @@
 
 }
 
+/* ------------------restart section */
+.restart {
+    text-align: center;
+    background: white;
+    color: black;
+    border-radius: 45%;
+    margin: auto;
+    border: solid;
+}
 
 body {
 
