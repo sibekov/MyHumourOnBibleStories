@@ -179,3 +179,36 @@ function myincreaselossAnswer() {
     let previousmywrongScore = parseInt(document.getElementById("wrong").innerHTML);
     document.getElementById("wrong").innerHTML = previousmywrongScore + 1;
 }
+
+/**
+ * Displays the various questions about operands/objects about the charactor Jesus.
+ */
+function displayjesusQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
+}
+
+/**
+ * Displays the various questions about operands/objects about the charactor Jona.
+ */
+function displayjonaQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
+
+}
+
+/**
+ * Displays the various questions about operands/objects about the charactor Elijah.
+ */
+function displayelijahQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
+}
+
+/**
+ * Displays the various questions about operands/objects about the charactor Moses.
+ */
+function displaymosesQuestion(charactor, operand) {
+    document.getElementById('mycharactor').textContent = charactor;
+    document.getElementById('myoperand').textContent = operand;
+}
