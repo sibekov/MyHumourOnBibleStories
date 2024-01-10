@@ -222,3 +222,14 @@ function mycounter() {
     document.getElementById("counterspan").innerHTML = counta;
     return counta;
 }
+
+/**
+ * Displays the message to be desplayed if the user have won the game.
+ */
+function winner(charactor) {
+    document.getElementById("gameoverdiv").style.backgroundColor = "green";
+    document.getElementById("gameoverdiv").style.color = "yellow";
+    document.getElementById("gameoverdiv").innerHTML = "!!!! Congratulations You Have Finished the GAMEl!!! <br/> Hit the 'Start Over' buttton  for <br/> a different set of questions";
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => button.disabled = true);
+}
