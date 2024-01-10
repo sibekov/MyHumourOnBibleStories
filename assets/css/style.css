@@ -2,6 +2,26 @@
     font-size: 250%;
 }
 
+
+/* ------------------counter of trys remaining */
+#counterspan {
+    color: white;
+    border: solid;
+    margin-left: 5%;
+    background-color: green;
+    font-size: 150%;
+    border-radius: 45%;
+    padding: 1%;
+
+}
+
+#counterholder {
+
+    color: green;
+}
+
+
+
 #myplaysizer {
 
 
