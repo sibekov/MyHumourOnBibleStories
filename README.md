@@ -10,19 +10,24 @@ At the same time the website expect the player to input answers as close a as po
 ## Features
 
 ### The header
-
-• At the very top of the page the header reveals the game name:Humour On Bible Stories. The font is a bit settle and conservative.
-
+<img src="assets/images/header.png">
+• At the very top of the page the header reveals the game name:Humour On Bible Stories. The font is a bit settle and conservative. It has an emphised font and guide on how you can play and win the game.
 • The background video is the signature of the game as it give it life and closer to God sensation as you travel through the clouds. But we can be sure God has a sense of humour and this is what the game is about.
-• But the red green blue orange and black colours on the buttons and the footer give the game life and the animation view and feel.
+• But the red green blue orange and black colours on the butto give the game life and the animation view and feel.
 
 ### The Game Options
-
+<img src="assets/images/questions.png">
 • The Game Options allows the player to select any on the four characters from the bible.
-• Based on their choice of character they are then given a relevant question.
+• Based on their choice of character they are then given a relevant question, Jesus relevant question if ChristJesus button is selected for an example.
+<img src="assets/images/answer.png">
 • There is an instruction to drop down on the form and
 • A list of options pops up and the user must choose the option that answers the question relevant to the character they chose at the begging of the game.
-• The question are 20 in total and the game finishes when you have not gotten one wrong question.
+<img src="assets/images/submit.png">
+• A submit button must be clicked for the answer to be checked.
+<img src="assets/images/correct.png">
+• The above alert shows when questions were answered correctly. With an incouraging comment of good bible study habits.
+<img src="assets/images/wrong.png">
+• The above alert shows when questions were answered incorreclty. With an additional comment on what the correct answer is for the user to learn in the process.
 • Questions pop out randomly and sometimes repeat just to through off the user. I will be addressing this on the bug fixing section a bit more.
 
 ### The Submit button.
