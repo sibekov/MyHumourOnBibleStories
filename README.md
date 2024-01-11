@@ -25,14 +25,18 @@ At the same time the website expect the player to input answers as close a as po
 <img src="assets/images/submit.png">
 • A submit button must be clicked for the answer to be checked.
 <img src="assets/images/correct.png">
-• The above alert shows when questions were answered correctly. With an incouraging comment of good bible study habits.
+• The above alert shows when questions were answered correctly. With an incouraging comment of good bible study habits.The play should press ok on the alert once read.
 <img src="assets/images/wrong.png">
-• The above alert shows when questions were answered incorreclty. With an additional comment on what the correct answer is for the user to learn in the process.
-• Questions pop out randomly and sometimes repeat just to through off the user. I will be addressing this on the bug fixing section a bit more.
-
+• The above alert shows when questions were answered incorreclty. With an additional comment on what the correct answer is for the user to learn in the process. The play should press ok on the alert once read.
+<img src="assets/images/gameover.png">
+• In the middle of the screen a game over message will appear and all buttons will be frozen if the user guessed wrong answers three times.  The start over button will need to be clicked if the player once to try again. The start over button is explained below.
+<img src="assets/images/win.png">
+• In the middle of the screen winning  message will appear congratulating you on finishing the game and also all buttons will be frozen if the user guessed correct answers five times.  The start over button will need to be clicked if the player once to try again. The start over button is explained below.
 ### The Submit button.
-
-• Soon after that there is a visible button that labelled ANSWERsubmit.
+<img src="assets/images/startover.png">
+• Start over button above, when clicked, refreshes the page any time the player wishes to start afresh.
+<img src="assets/images/trys.png">
+• The number of trys left button decrements eachtime you select the wrong answer and increments each time player got the right answer. This helps the user to be more careful.
 • This is linked to temperate literals and they notify the user if they are making good progress or it gives them correct answers that should have been selected so the user can learn from their mistakes.
 
 <img src="assets/images/optionsTopicfrom.png">
