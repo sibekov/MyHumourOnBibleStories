@@ -2,7 +2,10 @@
     font-size: 250%;
 }
 
-#introparagraph {}
+#introparagraph {
+    text-align: center;
+    font-size: 100%;
+}
 
 /* ------------------game over section */
 #gameoverdiv {
