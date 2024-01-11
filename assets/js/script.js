@@ -30,7 +30,6 @@ let listchecka = [];
 function myrunGame(mygameType) {
     let charactor = mygameType;
     let counta = mycounter();
-    let levela = parseInt(document.getElementById("myscore").innerHTML);
     if (counta === 0) {
         mygameover();
     }
