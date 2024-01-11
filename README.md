@@ -17,9 +17,10 @@ At the same time the website expect the player to input answers as close a as po
 
 ### The Game Options
 <img src="assets/images/questions.png">
+
 • The Game Options allows the player to select any on the four characters from the bible.
 • Based on their choice of character they are then given a relevant question, Jesus relevant question if ChristJesus button is selected for an example.
-<img src="assets/images/answer.png">
+<img src="assets/images/answer.png"><img src="assets/images/optionsTopicfrom.png">
 • There is an instruction to drop down on the form and
 • A list of options pops up and the user must choose the option that answers the question relevant to the character they chose at the begging of the game.
 <img src="assets/images/submit.png">
@@ -37,9 +38,6 @@ At the same time the website expect the player to input answers as close a as po
 • Start over button above, when clicked, refreshes the page any time the player wishes to start afresh.
 <img src="assets/images/trys.png">
 • The number of trys left button decrements eachtime you select the wrong answer and increments each time player got the right answer. This helps the user to be more careful.
-• This is linked to temperate literals and they notify the user if they are making good progress or it gives them correct answers that should have been selected so the user can learn from their mistakes.
-
-<img src="assets/images/optionsTopicfrom.png">
 
 ### The Game Results
 
@@ -48,8 +46,8 @@ At the same time the website expect the player to input answers as close a as po
 
 ### The footer
 
-• Color full and describe how to play the game and the winning criteria. Emphasises the winning score of 20/20 questions!  
-• It also shortly hight light what makes the game fun and humorous. Taking what said in some Bible passages in a literal sense does not always work and it becomes funny when you thing about it.
+• The footer keeps score count and display both the wrong attempts and the right attempts.  
+<img src="assets/images/score.png">
 
 ## Testing
 
