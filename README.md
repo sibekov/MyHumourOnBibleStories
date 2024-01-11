@@ -1,6 +1,6 @@
 # HumourOnBibleStories
 
-The HumourOnBibleStories website is for anyone that has interest in the Bible that is looking for fun. The website stimulates interest and brings laughter when you think about what the Bible characters would do if they thought in literal and simple terms.
+The HumourOnBibleStories website is for anyone that has interest in the Bible that is looking for fun. The website stimulates interest and brings laughter when you think about what the Bible characters would do if they lived in an animated and funny world.
 At the same time the website expect the user to input answers as close a as possible to the actual events in the bible. The project will be improved at a latter stage to support and provide memorandum for all the answers it deems correct. By quoting the chapter and verse in the actual bible and link it to online bible for curious users convenience.
 
 ## Laptop view
