@@ -3,13 +3,9 @@
 The HumourOnBibleStories website is for anyone that has interest in the Bible that is looking for fun. The website stimulates interest and brings laughter when you think about what the Bible characters would do if they lived in an animated and funny world.
 At the same time the website expect the player to input answers as close a as possible to the actual events in the bible. The game also gives feedback on what the correct answer should have been when you are wrong.  To play Click any of the bible charactor names and answer the random question displayed by droping down to select your answer and then click submit button.The game is won when you have answered 5 questions CORRECTLY in any charactor order. The game is lost if you answer incorrectly 3 times.
 
-## Laptop view
+## Various Devices View
 
 <img src="assets/images/laptopview.png">
-
-## Mobile phone view
-
-<img src="assets/images/mobileView.png">
 
 ## Features
 
