@@ -1,13 +1,15 @@
+/* ------------The main question section style */
 #bigger {
     font-size: 250%;
 }
 
+/* ------------------user guide intro text style section */
 #introparagraph {
     text-align: center;
     font-size: 100%;
 }
 
-/* ------------------game over section */
+/* ------------------game over section*/
 #gameoverdiv {
     font-size: 150%;
     color: red;
@@ -90,7 +92,7 @@ body {
     float: left;
 }
 
-/* --the buttons styling*/
+/* --the buttons styling */
 .mypress--general {
     border: solid;
     border-style: inset;
@@ -208,7 +210,7 @@ body {
 
 }
 
-/* ------------------heading section */
+/* ------------------foooter section */
 footer {
     height: 50px;
     text-align: center;

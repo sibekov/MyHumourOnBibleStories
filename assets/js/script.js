@@ -7,10 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
-
                 mycheckAnswer();
             }
-
             else {
                 let mygameType = this.getAttribute("data-type");
                 myrunGame(mygameType);
@@ -68,7 +66,6 @@ function myrunGame(mygameType) {
  * Checks the answer submitted by user against stored correct answers.
  */
 function mycheckAnswer() {
-
     let myuserAnswer = document.getElementById("useranswer").value;
     let myAnswer = myworkedoutAnswer();
     let isCorrect = myuserAnswer === myAnswer[1];
@@ -192,7 +189,6 @@ function displayjesusQuestion(charactor, operand) {
 function displayjonaQuestion(charactor, operand) {
     document.getElementById('mycharactor').textContent = charactor;
     document.getElementById('myoperand').textContent = operand;
-
 }
 
 /**
